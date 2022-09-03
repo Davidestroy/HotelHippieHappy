@@ -1,0 +1,16 @@
+List of Fonts used in template 
+
+MedulaOne	http://www.google.com/webfonts/specimen/Medula+One
+Opensans	http://www.google.com/webfonts/list?family=Open+Sans&subset=latin
+
+
+
+
+
+
+
+
+
+
+
+
