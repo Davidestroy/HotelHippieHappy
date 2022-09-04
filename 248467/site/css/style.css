@@ -953,7 +953,7 @@ footer {
   padding-top: 24px;
   text-transform: uppercase;
   background: url(../img/footer_bg.jpg) 0 repeat-x;
-  overflow: hidden;
+  overflow: visible;
 }
 footer > div > div > div {
   position: relative;
@@ -991,7 +991,7 @@ footer .banners {
   position: absolute;
   top: 0;
   margin-left: 0px !important;
-  margin-top: 27px;
+  margin-top: -150px;
 }
 footer .banners a:hover {
   text-decoration: none;
@@ -1085,7 +1085,7 @@ footer {
 }
 /*--- footer end ------*/
 .padding1 {
-  padding: 350px 0 0 0;
+  padding: 250px 0 800px 0;
 }
 .padding2 {
   padding-top: 37px;
