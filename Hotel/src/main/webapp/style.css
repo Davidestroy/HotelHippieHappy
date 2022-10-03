@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+  
+    width: 200px;   
+    background-color: white;
+    
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+   
+.slide img{
+    height: 88vh ;
+    padding: 0;
+}
+
+.card{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+@media (max-width:700px){
+    .card{
+        margin-left: 40px;
+    margin-right: 40px;
+    }
+}
