@@ -1,32 +1,49 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo img{
-  
-    width: 200px;   
+
+.logo img {
+
+    width: 200px;
     background-color: white;
-    
+
 }
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-}
-   
-.slide img{
-    height: 88vh ;
+
+
+.slide img {
+    height: 88vh;
     padding: 0;
 }
 
-.card{
+.card {
     margin-left: 140px;
     margin-right: 140px;
 }
-@media (max-width:700px){
-    .card{
-        margin-left: 40px;
-    margin-right: 40px;
+
+
+#habitaciones img, #habitaciones2 img, #zonas img {
+    height: 500px;
+    padding: 40px 200px;
+
+
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
     }
+
+    .card {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #habitaciones img, #habitaciones2 img, #zonas img{
+        height: 300px;
+        padding: 0;
+
+    }
+
 }
